@@ -68,7 +68,7 @@ exports.bandSendAlert = functions.https.onRequest((req, res) => {
             });
       });
 
-  res.status(200).send("testing");
+  res.status(200).send("Successfully sent message!");
 });
 
 
